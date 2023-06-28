@@ -1,8 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #40E0D0, #FF8C00,#7AA1D2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradientAnimation 4s linear infinite alternate;
+}
 
 * {
   margin: 0;
@@ -11,6 +33,7 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  background-color:'radial-gradient(circle at top, #0a1119 , #000000)';
 }
 .heading-gradient{
   background-image: linear-gradient(to right, #CF1169 0%, #A60D97 100%);

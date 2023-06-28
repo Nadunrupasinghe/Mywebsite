@@ -26,6 +26,7 @@ module.exports = {
       },
       fontFamily: {
         Aoboshi: ["'Aoboshi One'"],
+        HammerSmith: ["'Hammersmith One'"],
       },
     },
   },

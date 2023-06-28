@@ -214,7 +214,7 @@ const projects = [
       },
     ],
     image: freshlyy,
-    showLink: true,
+    showLink: false,
     source_code_link: "https://github.com/",
   },
   {
