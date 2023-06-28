@@ -26,6 +26,15 @@
   animation: gradientAnimation 4s linear infinite alternate;
 }
 
+.blue-heading-gradient {
+  background-image: linear-gradient(to right, #12c2e9, #c471ed,#f64f59);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradientAnimation 4s linear infinite alternate;
+}
+
 * {
   margin: 0;
   padding: 0;
